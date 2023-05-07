@@ -20,6 +20,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity(){
     private lateinit var productList: RecyclerView
     lateinit var mainViewModel: MainViewModel
+    lateinit var  vModel: MainViewModel
 
     @Inject
    lateinit var mainViewModelFactory : MainViewModelFactory
